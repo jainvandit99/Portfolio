@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "Inter";
+    src: url("../fonts/Inter.woff")
+}
+
+@font-face {
+    font-family: "Gr";
+    src: url("../fonts/Graphik-Regular.woff")
+}
+
+@font-face {
+    font-family: "Gr-Med";
+    src: url("../fonts/Graphik-Medium.woff")
+}

@@ -1,0 +1,44 @@
+.footer {
+    width: 100vw;
+    height: 52px;
+    border-width: 0px;
+    border-top: 0.5px;
+    border-style: solid;
+    border-color: #E6E8E9;
+    overflow: hidden;
+}
+
+.footer .container {
+    height: 100%;
+    text-align: right;
+    border-width: 0px;
+    border-right: 0.5px;
+    border-style: solid;
+    border-color: #E6E8E9;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.footer #quote{
+    display: inline-flex;
+}
+
+.footer p{
+    width: 90%;
+    vertical-align: middle;
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+    margin: auto 8px;
+    line-height: 14px;
+}
+
+.quote-icon{
+    vertical-align: middle;
+}
+
+@media only screen and (max-width: 600px) {
+    .footer p{
+        font-size: 13px;
+    }
+}
