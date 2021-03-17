@@ -1,9 +1,8 @@
-import React, { Fragment } from "react"
-import NavBar from "../components/navbar/navbar"
-import Landing from "../components/landing/landing"
-import FooterQuote from '../components/footer/footer'
-import Projects from '../components/projects/projects'
-import '../styles/global.css'
+import React from "react"
+import NavBar from "../components/navbar"
+import Landing from "../components/landing"
+import FooterQuote from '../components/footer'
+import Projects from '../components/projects'
 
 
 
