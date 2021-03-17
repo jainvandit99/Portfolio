@@ -123,7 +123,7 @@ class PinnedProjectLink extends Component {
     render() {
         return (
             <a href={this.props.href} target="_blank" style={{fontWeight:"400", fontSize:"14px", color:"rgb(51,51,51)", float: "left" ,clear: "left", marginBottom: "6px"}}>
-                <svg fill="none" height="16" stroke="rgb(51,51,51)" stroke-linecap="square" stroke-linejoin="arcs" stroke-width="1" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg" style={{marginRight:"8px"}}><path d="M5 12h13M12 5l7 7-7 7"></path></svg>
+                <svg fill="none" height="16" stroke="rgb(51,51,51)" strokeLinecap="square" strokeLinejoin="arcs" strokeWidth="1" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg" style={{marginRight:"8px"}}><path d="M5 12h13M12 5l7 7-7 7"></path></svg>
                 {this.props.linkText}
             </a>
         )

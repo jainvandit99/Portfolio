@@ -56,20 +56,14 @@ body {
 .footer {
     width: 100vw;
     height: 52px;
-    border-width: 0px;
-    border-top: 0.5px;
-    border-style: solid;
-    border-color: #E6E8E9;
+    border-top: 0.5px solid #E6E8E9;
     overflow: hidden;
 }
 
 .footer .container {
     height: 100%;
     text-align: right;
-    border-width: 0px;
-    border-right: 0.5px;
-    border-style: solid;
-    border-color: #E6E8E9;
+    border-right: 0.5px solid #E6E8E9;
     display: inline-flex;
     vertical-align: middle;
 }
@@ -186,6 +180,7 @@ body {
     font-size: 14px;
     padding: 8px;
     border-width: 1px;
+    border-style: solid;
 }
 
 .pinnedProjectButton::before{
