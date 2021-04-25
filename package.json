@@ -1,29 +1,42 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "portfolio-vandit",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "A Portfolio Website for Vandit Jain",
   "version": "0.1.0",
-  "license": "0BSD",
+  "license": "ISC",
+  "main": "index.js",
   "scripts": {
-    "dev": "next dev",
+    "dev": "cross-env ENV=dev PORT=8080 nodemon index.js",
     "build": "next build",
-    "start": "next start"
+    "start": "ENV=prod PORT=8080 node index.js",
+    "postinstall": "next build"
   },
   "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
     "bootstrap": "^4.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "flickity": "^2.2.2",
+    "ip": "^1.1.5",
+    "jquery": "^3.6.0",
+    "mongoose": "^5.12.0",
     "next": "^10.0.9",
+    "nodemon": "^2.0.7",
     "react": "^17.0.1",
     "react-bootstrap": "^1.5.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "scrollreveal": "^4.0.9",
+    "shell": "^0.8.4",
+    "shelljs": "^0.8.4"
   },
   "devDependencies": {
+    "cross-env": "^7.0.3",
     "prettier": "2.2.1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/jainvandit99/Portfolio"
   }
 }
